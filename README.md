@@ -1,0 +1,1 @@
+A simple chrome plugin to login to portailwifi.ec-nantes and portailvpn.ec-nantes.fr automacally.
