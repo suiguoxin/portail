@@ -1,4 +1,4 @@
-setTimeout(function() {
+(function() {
     //current URL
     var strUrl = window.location.href;
     var username;
@@ -21,7 +21,7 @@ setTimeout(function() {
         var checkbox = form_policy.getElementsByTagName('td')[0].getElementsByTagName('input')[0];
         checkbox.focus();
         checkbox.checked = "true";
-    }
+    } 
     //for agap
     else if(strUrl.indexOf('/AGAP/') != -1){  
         var aInputs = document.getElementsByTagName('input');
@@ -37,7 +37,7 @@ setTimeout(function() {
                 button = aInputs[i]; 
             } 
         }
-    }
+    } 
     //for portailvpn 
     else if (strUrl.indexOf("https://portailvpn.ec-nantes.fr/") != -1) {
         //get username and password
@@ -65,4 +65,4 @@ setTimeout(function() {
         }
     });
 
-}, 3000);
+})();
